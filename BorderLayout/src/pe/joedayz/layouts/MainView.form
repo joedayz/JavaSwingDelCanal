@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pe.joedayz.layouts.MainView">
+  <grid id="27dc6" binding="panelMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="80fa2" class="javax.swing.JButton" binding="btnOk">
+        <constraints border-constraint="West"/>
+        <properties>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="1081" class="javax.swing.JButton" binding="btnCancel">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

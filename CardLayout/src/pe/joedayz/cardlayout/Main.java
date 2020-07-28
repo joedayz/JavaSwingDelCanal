@@ -49,6 +49,7 @@ public class Main {
 		cards.add(card3, card3Text);
 
 		class ControlActionListenter implements ActionListener {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				CardLayout cl = (CardLayout) (cards.getLayout());
 				String cmd = e.getActionCommand();
@@ -63,6 +64,7 @@ public class Main {
 				}
 			}
 		}
+
 		ControlActionListenter cal = new ControlActionListenter();
 
 		JButton btn1 = new JButton("First");
